@@ -119,6 +119,13 @@ server.workspace('DQMContent', 31, 'Trigger/Lumi', 'L1T', '^L1T/', '')
 server.workspace('DQMContent', 32, 'Trigger/Lumi', 'L1TEMU', '^L1TEMU/', '')
 server.workspace('DQMContent', 33, 'Trigger/Lumi', 'HLT', '^HLT/', '')
 
+server.workspace('DQMContent', 34, 'Calorimeter', 'Castor', '^Castor/', '',
+                 'Castor/Layouts/01 - Map of frontend and readout errors',
+                 'Castor/Layouts/02 - Channel-wise timing',
+                 'Castor/Layouts/02b - Channel-wise timing (rms)',
+                 'Castor/Layouts/04 - DigiSize',
+                )
+
 # POG workspaces:
 server.workspace('DQMContent', 41, 'POG', 'Muons', '^Muons/', '')
 server.workspace('DQMContent', 42, 'POG', 'JetMet', '^JetMET/', '')
